@@ -1,0 +1,150 @@
+body {
+    background: url("images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.name {
+    display:inherit;
+    margin:0;
+    padding:30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-size: 5em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    color:#ffff;
+}
+
+.address-bar {
+    display:inherit;
+    margin:0;
+    padding:0 0 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-transform:uppercase;
+    font-size: 1.25em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing:3px;
+    color:#ffff;
+}
+
+.navbar {
+    min-height: 0;
+    border:none;
+    background:#fff;
+    background:rgba(255,255,255,0.9);
+}
+
+a {
+    background-color: transparent;
+    color:inherit;
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 7.5px -15px;
+}
+
+.container {
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.spacer {
+    height:20px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.index-main {
+    text-align:center;
+}
+
+.index-main p {
+    background:url("BYU.jpg") no-repeat right center;
+    padding-left:30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    overflow: hidden;
+    display:inline-block;
+}
+
+.header-col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+.content-col {
+    width:45%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    float:left;
+    font-size:1.15em;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align:center;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.intro-bullet {
+    padding-bottom: 15px;
+}
+
+.intro-heading {
+    font-size: 1.35em;
+}
+
+.img-half {
+    width:100%;
+}
