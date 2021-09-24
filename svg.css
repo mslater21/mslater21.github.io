@@ -1,0 +1,26 @@
+.sky {
+    fill:black;
+
+}
+
+.planet {
+    fill:blanchedalmond;
+}
+
+.gold_band {
+    fill:gold;
+}
+
+.ivory_band {
+    fill:ivory;
+}
+
+.red_band {
+    fill:tomato;
+}
+
+.star {
+    fill:white;
+    stroke:white;
+    stroke-width: .5;
+}
