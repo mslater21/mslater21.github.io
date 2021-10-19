@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css"/>
+    <script src="form.js"></script>
+</head>
+<body onload="populate_dropdowns()" onsubmit="return submit_form(event)" onreset="return reset_form(event)">
+<form>
+    <label class="main_label" for="username">Username:</label><input id=username type="text" name="username"><br>
+    <label class="main_label" for="email">Email:</label><input id=email type="text" name="email"><br>
+    <label class="main_label" for="number">Phone Number:</label><input id=number type="text" name="number"><br>
+    <label class="main_label" for="pass">Enter Password:</label><input id=pass type="password" name="pass"><br>
+    <label class="main_label" for="pass_confirm">Confirm Password:</label><input id=pass_confirm type="password" name="pass_confirm"><br>
+    <label class="main_label">Gender:</label>
+        <input id=female type="radio" name="gender"><label for="female">Female</label>
+        <input id=male type="radio" name="gender"><label for="male">Male</label>
+        <input id=other type="radio" name="gender"><label for="other">Other</label>
+    <br>
+    <label class="main_label">Birthday:</label>
+    <select name="birthday" id="birth_month"></select>
+    <select name="birthday" id="birth_day"></select>
+    <select name="birthday" id="birth_year"></select>
+    <br>
+    <label class="main_label">Favorite Music Genre:</label>
+    <input type="checkbox" id="pop"><label for="pop">Pop</label>
+    <input type="checkbox" id="hiphop"><label for="hiphop">Hiphop</label>
+    <input type="checkbox" id="jazz"><label for="jazz">Jazz</label>
+    <input type="checkbox" id="rock"><label for="rock">Rock</label>
+    <input type="checkbox" id="class"><label for="class">Classical Music</label>
+    <input type="checkbox" id="country"><label for="country">Country</label>
+    <br>
+    <br>
+    <div class="outputs">
+        <input type="submit"> <input type="reset" value="Clear" onclick="reset_form()"><br>
+    </div>
+</form>
+<br>
+
+<div id="form_results" class="outputs"></div>
+
+</body>
+</html>

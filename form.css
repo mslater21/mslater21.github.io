@@ -1,0 +1,21 @@
+.main_label {
+    display: inline-block;
+    width:150px;
+    text-align: right;
+}
+
+.error {
+    color:red;
+}
+
+.invalid {
+    color:orange;
+}
+
+.outputs {
+    padding-left: 8%;
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    text-anchor: end;
+}

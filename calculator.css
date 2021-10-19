@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+table {
+    width: 25%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    width: 25%;
+}
+
+th {
+    background-color: CadetBlue;
+}
+
+tr:nth-child(even) {background-color: LightGrey}
